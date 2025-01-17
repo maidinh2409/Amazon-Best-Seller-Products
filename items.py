@@ -23,4 +23,5 @@ class BookItem(scrapy.Item):
     image_url = scrapy.Field()
 
 class ProductItem(scrapy.Item):
+    pass
     
