@@ -23,5 +23,11 @@ class BookItem(scrapy.Item):
     image_url = scrapy.Field()
 
 class ProductItem(scrapy.Item):
-    pass
+    productName = scrapy.Field()
+    productBrand = scrapy.Field()
+    productCategory = scrapy.Field()
+    productPrice = scrapy.Field()
+    numberReviews = scrapy.Field()
+    numberStars = scrapy.Field()
+    highlightedFeatures = scrapy.Field()
     
